@@ -50,7 +50,7 @@ class QueryBuilder {
         }
 
         //$functional_resolved = $this->functional_areas_table[$functional_area];
-        $fuctional_resolved = $functional_area;
+        $functional_resolved = $functional_area;
 
         $order_by = "";
         if (strcmp($sort_by, "relevance") == 0) {
